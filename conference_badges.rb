@@ -12,7 +12,7 @@ end
 
 def printer(array)
   array.each do |x|
-    batch_badge_creator(array)
-    assign_rooms(array)
+    batch_badge_creator(x)
+    assign_rooms(x)
   end
 end
